@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XennonFunctionsApp", "XennonFunctionsApp\XennonFunctionsApp.csproj", "{1D048679-4BE8-4047-BD72-E68BA93E4D4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D048679-4BE8-4047-BD72-E68BA93E4D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D048679-4BE8-4047-BD72-E68BA93E4D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D048679-4BE8-4047-BD72-E68BA93E4D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D048679-4BE8-4047-BD72-E68BA93E4D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86745740-D435-4664-83B9-0177EAD6470B}
+	EndGlobalSection
+EndGlobal
