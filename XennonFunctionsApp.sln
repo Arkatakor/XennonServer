@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XennonFunctionsApp", "XennonFunctionsApp\XennonFunctionsApp.csproj", "{1D048679-4BE8-4047-BD72-E68BA93E4D4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7779EE83-0A7E-4D52-AEFE-B49304EC151A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7779EE83-0A7E-4D52-AEFE-B49304EC151A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

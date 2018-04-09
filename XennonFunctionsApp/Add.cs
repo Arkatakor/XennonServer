@@ -3,6 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Web.Http;
 using DataAccess;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
@@ -10,6 +11,7 @@ using Microsoft.Azure.WebJobs.Host;
 
 namespace XennonFunctionsApp
 {
+    [Authorize]
     public static class Add
     {
         [FunctionName("Add")]
@@ -29,6 +31,8 @@ namespace XennonFunctionsApp
             string name = req.GetQueryNameValuePairs()
                 .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
                 .Value;
+
+            //var user = await DataProvider.GetUserByEmail("asdf");
 
             // Get request body
             dynamic data = await req.Content.ReadAsAsync<object>();
